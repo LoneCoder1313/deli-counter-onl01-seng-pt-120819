@@ -18,8 +18,10 @@ end
 end 
 
 def line(other_deli)
-    if other_deli.length ==3 
+    if other_deli.length ==1
        other_deli.each_with_index do |name,index|
+         puts "there are people in line"
+         elsif other_deli.length == 3
          puts 
 
 def now_serving (katz_deli)
