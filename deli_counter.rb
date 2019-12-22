@@ -8,9 +8,8 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli)
-    if katz_deli.length 
-       
-    puts "The line is currently #{index+1}. #{name}"
+    if katz_deli.length <= line
+       puts "The line is currently #{index+1}. #{name}"
 end
     elsif katz_deli.empty? == true
   puts "The line is currently empty."
