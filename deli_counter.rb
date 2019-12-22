@@ -18,7 +18,7 @@ end
 end 
 
 def line(other_deli)
-    if other_deli.empty? == 
+    if other_deli.length 
 
 
 def now_serving (katz_deli)
