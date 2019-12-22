@@ -21,8 +21,11 @@ def line(other_deli)
     if other_deli.length ==1
        other_deli.each_with_index do |name,index|
          puts "there are people in line"
+end 
          elsif other_deli.length == 3
-         puts 
+         puts "The line is currently: #{index+1} #{name}"
+end          
+end 
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
