@@ -20,7 +20,7 @@ end
 def line(other_deli)
     if other_deli.length ==3 
        other_deli.each_with_index do |name,index|
-         puts 
+         puts ""
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
