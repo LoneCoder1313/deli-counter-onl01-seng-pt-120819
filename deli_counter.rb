@@ -4,7 +4,3 @@ def line(katz_deli)
 
     puts "The line is currently: #{index+3}. #{value}"
 end
-    elsif katz_deli.empty? == true
-  puts "The line is currently empty."
-end
-end
