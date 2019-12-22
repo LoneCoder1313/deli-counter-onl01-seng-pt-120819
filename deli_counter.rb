@@ -15,7 +15,11 @@ end
     elsif katz_deli.empty? == true
   puts "The line is currently empty."
  end
-end
+end 
+
+def line(other_deli)
+    if other_deli.empty? == 
+
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
