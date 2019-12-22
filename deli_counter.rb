@@ -7,7 +7,7 @@ def take_a_number(katz_deli, name)
   return name, position
 end
 
-def line(katz_deli)
+def line(katz_deli=[])
     if katz_deli.empty? == false
        katz_deli.each_with_index do|name,index|
     puts "The line is currently #{index+1}. #{name}"
